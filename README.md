@@ -9,7 +9,7 @@ The first thing we're going to have to do is create a [Slack](https://slack.com)
 With this we go to the installation of the necessary packages, specifically the slack client for Python.
 
 ```sh
-$ pip install slackclient
+$ pip install slackclient==1.3.1
 ```
 
 With this we can move to our Python script where we can create a small function that allows us to send messages. (More information [here](https://pypi.org/project/slackclient/)).
